@@ -121,18 +121,22 @@
         padding: 0;
       }
       .image_sobre {
-       position: relative;
-       width: 100%;
-       top: 25%;
+       
+       width: 120%;
+       /* position: relative;
+      top: 25%;
        right: 0;
        left: 0;
-       margin: 0 auto;
+       margin: 0 auto;*/
       }
       .texto-con-icono img {
-      display: block; /* Asegura que la imagen sea un bloque */
+      display: flex; /* Asegura que la imagen sea un bloque */
+      align-items:center;
+      justify-content:center;
+      gap:15px;
       margin-top: 10px; /* Espacio entre el texto y la imagen */
-      width: 120px; /* Ancho de la imagen (ajústalo según sea necesario) */
-      height: 120px; /* Altura de la imagen */
+      /*width: 120px;  Ancho de la imagen (ajústalo según sea necesario) */
+      /*height: 120px;  Altura de la imagen */
     }
 
     @font-face {
